@@ -1,6 +1,6 @@
 //XOR function using madaline
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 void main()
 {
   signed int x[4][2],tar[4];
@@ -9,7 +9,7 @@ void main()
   int i,j,c=0,in,d;
   float bc[2];
   float alp=0.5;
-  clrscr();
+  //clrscr();
   for(i=0;i<=3;i++)
   {
     printf("Enter the %d row & target:");
